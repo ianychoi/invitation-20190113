@@ -90,21 +90,19 @@
 			<div id="fh5co-logo">
 				<a href="index_en.html">Wedding
                                 <span>
-<!--<?php
-     $end_date = date('2019-01-13'); // D-day date
-
-     $d_day = floor(( strtotime(substr($end_date,0,10)) -
-
-                    strtotime(date('Y-m-d')) )/86400);
-     if($d_day > 0){
-            echo ' (D-'.$d_day.')';
-     }
-     else if ($d_day == 0) {
-            echo ' (D-day)';
-     }
-
-?>-->
-
+<script language="JavaScript">
+<!--
+var now = new Date();
+var then = new Date("January 13, 2019"); // D-day
+var gap = then.getTime() - now.getTime();
+gap = Math.floor(gap / (1000 * 60 * 60 * 24))+1;
+if(gap>0) {
+    document.write(" (D-" + gap + ")");
+} else if(gap == 0) {
+    document.write(" (D-Day)");
+}
+// -->
+</script>
                                 </span></a>
 			</div>
 			<nav id="fh5co-main-nav">
@@ -131,7 +129,7 @@
 							<h1 class="animate-box"> will get married!</h1>
 							<div class="fh5co-go animate-box">
 								<a href="#" class="js-fh5co-next">
-									<h3>Message</h3>
+									<h3>Information</h3>
 									<span><i class="icon-arrow-down2"></i></span>
 								</a>
 								
@@ -173,8 +171,8 @@
 						<img src="./images/subject_deco.png" width="161" height="22"> 
 					</h2>
 						<br> <p class="ned-lead animate-box">
-						3F The Convention, 319 Olympic-ro <br>
-						, Songpa-gu, Seoul, Korea <br> 
+						3F The Convention, 319 Olympic-ro, <br>
+						Songpa-gu, Seoul, Korea <br> 
  </p>
  <br>
 <div align="center" class="animate-box">
