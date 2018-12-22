@@ -112,7 +112,7 @@ if(gap>0) {
 					<li><a href="#" data-nav-section="welcome">모시는 글</a></li>
 					<li><a href="#" data-nav-section="wedphoto">사진들</a></li>
 					<li><a href="#" data-nav-section="contact">연락하기</a></li>
- 					<li><a href="index_en.html" data-nav-section="portfolio">English</a></li>
+ 					<li><a href="#" data-nav-section="portfolio">English</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -392,7 +392,7 @@ function copy_to_clipboard(str) {
 
 
 		<!-- <a href="#" onclick="copy_to_clipboard('https://iankyung.azurewebsites.net');">청첩장주소 복사</a> -->
-		<a download="custom-filename.jpg" href="./images/invitation.jpg" title="청첩장 다운로드">
+		<a download="./images/invitation.jpg" href="./images/invitation.jpg" title="청첩장 다운로드">
 		    <b> 종이 청첩장 다운로드 <<= 클릭! </b>
 		</a>
 
@@ -403,17 +403,18 @@ function copy_to_clipboard(str) {
 			</div>
 		</div>
 
-		<div id="fh5co-footer">
+		<div id="fh5co-footer" data-section="portfolio">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-sm-6 animate-box">
+					<div class="col-md-9 col-sm-9 animate-box">
 						<div class="fh5co-footer-widget">
+							<p>English version is available through <a href="index_en.html">here</a>.</p>
 							<p>This site is built &amp; published using <a href="https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment#deploy-continuously-from-github" target="_blank">Azure App Service &amp; GitHub deployment.</a></p>
 							<p>&copy; Fotografy Free HTML5 Template. All Rights Reserved.</p>
 							<p>Designed by <a href="http://freehtml5.co/">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a> &amp; <a href="http://pexels.com/" target="_blank">Pexels</a></p>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 animate-box">
+					<div class="col-md-3 col-sm-3 animate-box">
 						<div class="fh5co-footer-widget">
 							<ul class="fh5co-social pull-right">
 								<li>

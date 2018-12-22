@@ -776,11 +776,6 @@ h3 {
   padding: 1em 0; /* 4em */
   font-size: 16px;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-footer {
-    padding: 1em 0; /* 3em */
-  }
-}
 #fh5co-footer a {
   color: #f67d38;
 }
